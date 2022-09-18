@@ -1,4 +1,4 @@
-package com.andmal;
+package com.andmal.mq;
 
 import io.quarkus.runtime.annotations.RegisterForReflection;
 
