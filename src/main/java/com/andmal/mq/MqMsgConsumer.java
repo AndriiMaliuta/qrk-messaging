@@ -20,7 +20,7 @@ public class MqMsgConsumer {
     @Incoming("words-in")
 //    @Blocking
 //    @Transactional
-    public void consume(JsonObject msg) {
+    public void consume(String msg) {
         //        MyMessage msg = p.mapTo(MyMessage.class);
         LOG.info(msg.toString());
     }
